@@ -319,8 +319,6 @@ body {
   border-radius: 2px;
 }
 
-/* ==================== PAGES AUTHENTIFICATION ==================== */
-
 /* Main Content */
 .main {
   max-width: 440px;
@@ -340,7 +338,7 @@ body {
   text-align: center;
   letter-spacing: -0.5px;
 }
-
+/* fais par Romain*/
 /* Form */
 .form {
   display: flex;
@@ -351,6 +349,8 @@ body {
 .form__group {
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 100%;
   gap: 0.5rem;
 }
 
@@ -531,7 +531,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
-
+/* fais par Romain*/
 /* Links */
 .form__link {
   font-size: 0.9rem;

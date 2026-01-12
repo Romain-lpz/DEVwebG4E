@@ -1,5 +1,5 @@
 <?php
-// config.php - Configuration de base
+// config.php 
 
 session_start();
 

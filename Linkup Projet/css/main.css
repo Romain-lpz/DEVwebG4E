@@ -185,6 +185,7 @@ body {
   letter-spacing: -0.5px;
 }
 
+/* fais par Romain*/
 /* Form */
 .form {
   display: flex;
@@ -270,11 +271,12 @@ body {
   margin-bottom: 8px;
 }
 
-/* Afficher au survol de la checkbox */
 .form__checkbox#age:hover ~ .form__checkbox-tooltip {
   opacity: 1;
   visibility: visible;
 }
+/* fais par Romain*/
+
 /* Links */
 .form__link {
   font-size: 0.9rem;
@@ -290,7 +292,6 @@ body {
   color: #3baee0;
 }
 
-/* Submit Button */
 .form__submit {
   font-size: 1.05rem;
   font-weight: 700;

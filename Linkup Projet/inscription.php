@@ -7,7 +7,8 @@ require_once 'config.php';
     <meta charset="UTF-8" />
     <title>LinkUp - Connexion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main2.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/password.css" />
   </head>
   <body>
     
@@ -52,6 +53,11 @@ require_once 'config.php';
               minlength="8"
               required
             />
+            <img
+                src="images/eye-close.png"
+                alt=""
+                class="password-click-img"
+                id="passwordIcon"/>
           </div>
           
           <label class="form__checkbox-wrapper">
@@ -72,6 +78,7 @@ require_once 'config.php';
       </section>
     </main>
     <?php include 'header.php'; ?>
-    <script src="js/login.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/passwordvisibility.js"></script>
   </body>
 </html>
